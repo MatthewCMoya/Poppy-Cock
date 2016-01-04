@@ -1,0 +1,312 @@
+.clearfix:after, .player-list:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  font-size: 14px;
+  font-family: "Raleway";
+  color: #4C4B4B;
+}
+
+.wordmark {
+  font-family: "Chewy";
+  font-size: 4em;
+  margin: 0;
+  margin-top: .5em;
+  -ms-transform: rotate(-3deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-3deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-3deg);
+  text-shadow: #ccc 0 1px 0, #c9c9c9 0 2px 0, #bbb 0 3px 0, #b9b9b9 0 4px 0, #aaa 0 5px 0, rgba(0, 0, 0, 0.1) 0 6px 1px, rgba(0, 0, 0, 0.1) 0 0 5px, rgba(0, 0, 0, 0.3) 0 1px 3px, rgba(0, 0, 0, 0.15) 0 3px 5px, rgba(0, 0, 0, 0.2) 0 5px 10px, rgba(0, 0, 0, 0.2) 0 10px 10px, rgba(0, 0, 0, 0.1) 0 20px 20px;
+}
+
+.word {
+  font-family: "Chewy";
+  font-size: 2em;
+  margin: 0;
+  text-align: center;
+  margin-top: .5em;
+  text-shadow: #ccc 0 1px 0, #c9c9c9 0 2px 0, #bbb 0 3px 0, #b9b9b9 0 4px 0, #aaa 0 5px 0, rgba(0, 0, 0, 0.1) 0 6px 1px, rgba(0, 0, 0, 0.1) 0 0 5px, rgba(0, 0, 0, 0.3) 0 1px 3px, rgba(0, 0, 0, 0.15) 0 3px 5px, rgba(0, 0, 0, 0.2) 0 5px 10px, rgba(0, 0, 0, 0.2) 0 10px 10px, rgba(0, 0, 0, 0.1) 0 20px 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 1em 0 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 1em 0 0;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+p {
+  margin: 1.5em 1em;
+  font-size: 1.5em;
+}
+
+.button, .cta, .ready, .how-to-play, .player-list li button {
+  width: 98%;
+  margin: 1%;
+  box-shadow: inset 0 1px 0 0 #ffffff;
+  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startcolorstr='$color_gallery_approx', endcolorstr='$color_bon_jour_approx',gradienttype=0);
+  background-color: #ededed;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #777777;
+  font-weight: bold;
+  padding: 9px 24px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffffff;
+}
+.button:hover, .cta:hover, .ready:hover, .how-to-play:hover, .player-list li button:hover {
+  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startcolorstr='$color_bon_jour_approx', endcolorstr='$color_gallery_approx',gradienttype=0);
+  background-color: #dfdfdf;
+}
+.button:active, .cta:active, .ready:active, .how-to-play:active, .player-list li button:active {
+  position: relative;
+  top: 1px;
+}
+
+.cta, .ready {
+  box-shadow: inset 0 1px 0 0 #d9fbbe;
+  background: linear-gradient(to bottom, #b8e356 5%, #b8e356 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startcolorstr='$color_conifer_approx', endcolorstr='$color_conifer_approx',gradienttype=0);
+  background-color: #b8e356;
+  border: 1px solid #83c41a;
+  text-shadow: 0 1px 0 #86ae47;
+  color: #ffffff;
+}
+.cta:hover, .ready:hover {
+  background: linear-gradient(to bottom, #b8e356 5%, #b8e356 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startcolorstr='$color_conifer_approx', endcolorstr='$color_conifer_approx',gradienttype=0);
+  background-color: #b8e356;
+}
+
+.ready {
+  font-size: 2em;
+}
+.ready.submit {
+  width: 80%;
+  text-align: center;
+  margin: 1em 10% 0 10%;
+}
+
+.player {
+  text-align: center;
+}
+.player.one {
+  color: #801515;
+}
+.player.two {
+  color: #3C10C9;
+}
+.player.three {
+  color: #2B932B;
+}
+.player.four {
+  color: #B79535;
+}
+
+.player-list {
+  font-size: 2.5em;
+  padding: 0;
+}
+.player-list li {
+  width: 48%;
+  margin: 0;
+  list-style: none;
+  float: left;
+  padding: 1%;
+}
+.player-list li button {
+  width: 100%;
+  font-family: "Raleway";
+  font-size: 1.8em;
+}
+.player-list li button i {
+  display: block;
+  font-size: 3em;
+}
+
+.button, .cta, .ready, .how-to-play, .player-list li button {
+  width: 98%;
+  margin: 1%;
+  box-shadow: inset 0 1px 0 0 #ffffff;
+  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startcolorstr='$color_gallery_approx', endcolorstr='$color_bon_jour_approx',gradienttype=0);
+  background-color: #ededed;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #777777;
+  font-weight: bold;
+  padding: 9px 24px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffffff;
+}
+.button:hover, .cta:hover, .ready:hover, .how-to-play:hover, .player-list li button:hover {
+  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startcolorstr='$color_bon_jour_approx', endcolorstr='$color_gallery_approx',gradienttype=0);
+  background-color: #dfdfdf;
+}
+.button:active, .cta:active, .ready:active, .how-to-play:active, .player-list li button:active {
+  position: relative;
+  top: 1px;
+}
+
+.cta, .ready {
+  box-shadow: inset 0 1px 0 0 #d9fbbe;
+  background: linear-gradient(to bottom, #b8e356 5%, #b8e356 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startcolorstr='$color_conifer_approx', endcolorstr='$color_conifer_approx',gradienttype=0);
+  background-color: #b8e356;
+  border: 1px solid #83c41a;
+  text-shadow: 0 1px 0 #86ae47;
+  color: #ffffff;
+}
+.cta:hover, .ready:hover {
+  background: linear-gradient(to bottom, #b8e356 5%, #b8e356 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startcolorstr='$color_conifer_approx', endcolorstr='$color_conifer_approx',gradienttype=0);
+  background-color: #b8e356;
+}
+
+.ready {
+  font-size: 2em;
+}
+.ready.submit {
+  width: 80%;
+  text-align: center;
+  margin: 1em 10% 0 10%;
+}
+
+.back-to-home-button {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.definition-input {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+.definition-input .user-def {
+  height: 250px;
+  width: 80%;
+}
+
+* {
+  font-size: 14px;
+  font-family: "Raleway";
+  color: #4C4B4B;
+}
+
+.wordmark {
+  font-family: "Chewy";
+  font-size: 4em;
+  margin: 0;
+  margin-top: .5em;
+  -ms-transform: rotate(-3deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-3deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-3deg);
+  text-shadow: #ccc 0 1px 0, #c9c9c9 0 2px 0, #bbb 0 3px 0, #b9b9b9 0 4px 0, #aaa 0 5px 0, rgba(0, 0, 0, 0.1) 0 6px 1px, rgba(0, 0, 0, 0.1) 0 0 5px, rgba(0, 0, 0, 0.3) 0 1px 3px, rgba(0, 0, 0, 0.15) 0 3px 5px, rgba(0, 0, 0, 0.2) 0 5px 10px, rgba(0, 0, 0, 0.2) 0 10px 10px, rgba(0, 0, 0, 0.1) 0 20px 20px;
+}
+
+.word {
+  font-family: "Chewy";
+  font-size: 2em;
+  margin: 0;
+  text-align: center;
+  margin-top: .5em;
+  text-shadow: #ccc 0 1px 0, #c9c9c9 0 2px 0, #bbb 0 3px 0, #b9b9b9 0 4px 0, #aaa 0 5px 0, rgba(0, 0, 0, 0.1) 0 6px 1px, rgba(0, 0, 0, 0.1) 0 0 5px, rgba(0, 0, 0, 0.3) 0 1px 3px, rgba(0, 0, 0, 0.15) 0 3px 5px, rgba(0, 0, 0, 0.2) 0 5px 10px, rgba(0, 0, 0, 0.2) 0 10px 10px, rgba(0, 0, 0, 0.1) 0 20px 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 1em 0 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 1em 0 0;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+p {
+  margin: 1.5em 1em;
+  font-size: 1.5em;
+}
+
+.definitions-list {
+  list-style: upper-alpha;
+}
+.definitions-list li {
+  margin: 2em 1em 2em 0;
+}
+
+.player {
+  text-align: center;
+}
+.player.one {
+  color: #801515;
+}
+.player.two {
+  color: #3C10C9;
+}
+.player.three {
+  color: #2B932B;
+}
+.player.four {
+  color: #B79535;
+}
+
+.player-list {
+  font-size: 2.5em;
+  padding: 0;
+}
+.player-list li {
+  width: 48%;
+  margin: 0;
+  list-style: none;
+  float: left;
+  padding: 1%;
+}
+.player-list li button {
+  width: 100%;
+  font-family: "Raleway";
+  font-size: 1.8em;
+}
+.player-list li button i {
+  display: block;
+  font-size: 3em;
+}
+
+#content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+#main {
+  padding-top: 1em;
+}
+
+/*# sourceMappingURL=app.css.map */
